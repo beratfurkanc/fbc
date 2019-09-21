@@ -1,0 +1,245 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-21T23:01:07.596Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12703173200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "get available times for a movie",
+        "description": "",
+        "id": "amc;get-available-times-for-a-movie;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1114912600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 281376200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on home page",
+            "match": {
+              "location": "Amc_Step_Def.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1479067100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User select a \"The Lion King\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The Lion King\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Amc_Step_Def.user_select_a(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2943436000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click get tickets for the movie",
+            "match": {
+              "location": "Amc_Step_Def.user_click_get_tickets_for_the_movie()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 726101500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User change the location with \"20170\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20170\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Amc_Step_Def.user_change_the_location_with(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9175204500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User search for available \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Amc_Step_Def.user_search_for_available(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amc"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-21T23:01:36.048Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10622793800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "get available times for a movie",
+        "description": "",
+        "id": "amc;get-available-times-for-a-movie;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1118739900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 270007000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on home page",
+            "match": {
+              "location": "Amc_Step_Def.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1422400400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User select a \"IT Chapter Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IT Chapter Two\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Amc_Step_Def.user_select_a(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2930272800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click get tickets for the movie",
+            "match": {
+              "location": "Amc_Step_Def.user_click_get_tickets_for_the_movie()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 790227500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User change the location with \"20170\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20170\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Amc_Step_Def.user_change_the_location_with(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5297636800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User search for available \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Amc_Step_Def.user_search_for_available(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amc"
+          }
+        ]
+      }
+    ],
+    "name": "AMC",
+    "description": "",
+    "id": "amc",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/apptium/features/amc.feature",
+    "tags": []
+  }
+]
