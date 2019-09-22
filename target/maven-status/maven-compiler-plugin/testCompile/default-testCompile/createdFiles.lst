@@ -1,9 +1,8 @@
-com\apptium\pages\MovieTimes.class
 com\apptium\step_def\Amc_Step_Def.class
 com\apptium\step_def\Hooks.class
-com\apptium\utilities\Driver.class
 com\apptium\utilities\ConfigurationReader.class
+com\apptium\testng_data_provider\TestNG_DataProvider.class
+com\apptium\utilities\Driver.class
 com\apptium\pages\HomePage.class
 com\apptium\runners\Runner.class
-com\apptium\testng_data_provider\TestNG_DataProvider.class
 com\apptium\pages\GetTicketsPage.class

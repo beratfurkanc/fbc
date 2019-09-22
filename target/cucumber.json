@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-21T23:01:07.596Z",
+        "start_timestamp": "2019-09-22T21:54:37.016Z",
         "before": [
           {
             "result": {
-              "duration": 12703173200,
+              "duration": 9930105000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1114912600,
+              "duration": 652205800,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 281376200,
+              "duration": 252414700,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1479067100,
+              "duration": 857981200,
               "status": "passed"
             },
             "line": 5,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 2943436000,
+              "duration": 3698766900,
               "status": "passed"
             },
             "line": 6,
@@ -77,7 +77,7 @@
           },
           {
             "result": {
-              "duration": 726101500,
+              "duration": 13492700,
               "status": "passed"
             },
             "line": 7,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 9175204500,
+              "duration": 2140629100,
               "status": "passed"
             },
             "line": 8,
@@ -119,11 +119,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-09-21T23:01:36.048Z",
+        "start_timestamp": "2019-09-22T21:54:54.587Z",
         "before": [
           {
             "result": {
-              "duration": 10622793800,
+              "duration": 7758371700,
               "status": "passed"
             },
             "match": {
@@ -138,7 +138,7 @@
         "after": [
           {
             "result": {
-              "duration": 1118739900,
+              "duration": 659734600,
               "status": "passed"
             },
             "match": {
@@ -151,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 270007000,
+              "duration": 170613800,
               "status": "passed"
             },
             "line": 4,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 1422400400,
+              "duration": 810112600,
               "status": "passed"
             },
             "line": 5,
@@ -181,7 +181,7 @@
           },
           {
             "result": {
-              "duration": 2930272800,
+              "duration": 3592666600,
               "status": "passed"
             },
             "line": 6,
@@ -193,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 790227500,
+              "duration": 14178600,
               "status": "passed"
             },
             "line": 7,
@@ -211,7 +211,7 @@
           },
           {
             "result": {
-              "duration": 5297636800,
+              "duration": 2357829600,
               "status": "passed"
             },
             "line": 8,
@@ -239,7 +239,7 @@
     "description": "",
     "id": "amc",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/com/apptium/features/amc.feature",
+    "uri": "file:src/main/resources/com/apptium/features/amc.feature",
     "tags": []
   }
 ]

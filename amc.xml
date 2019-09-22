@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="amc" verbose="1" >
+    <test name="amc" >
+        <parameter name="test" value="amc"></parameter>
+        <classes>
+            <class name="com.apptium.testng_data_provider.TestNG_DataProvider" />
+        </classes>
+    </test>
+</suite>

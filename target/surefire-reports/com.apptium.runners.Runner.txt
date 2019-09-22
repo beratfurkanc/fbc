@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.apptium.runners.Runner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.878 s - in com.apptium.runners.Runner
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.154 s - in com.apptium.runners.Runner
