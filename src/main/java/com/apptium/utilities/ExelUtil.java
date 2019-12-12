@@ -21,7 +21,8 @@ public class ExelUtil {
         try {
             // Open the Excel file
             FileInputStream excelFile = new FileInputStream(path);
-            InputStream inputStream =  (getClass().getClassLoader().getResourceAsStream(path));
+//            InputStream inputStream =  (getClass().getClassLoader().getResourceAsStream(path));
+            InputStream inputStream = getClass().getResourceAsStream(path);
             // Access the required test data sheet
             workBook = WorkbookFactory.create(inputStream);
             workSheet = workBook.getSheet(sheetName);
